@@ -44,13 +44,10 @@
                 <a href="#top" onclick=$("#menu-close").click();>Home</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>Mengenai Kami</a>
+                <a href="#mengenaikami" onclick=$("#menu-close").click();>Mengenai Kami</a>
             </li>
             <li>
-                <a href="services.html" onclick=$("#menu-close").click();>Servis</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+                <a href="#services" onclick=$("#menu-close").click();>Servis</a>
             </li>
         </ul>
     </nav>
@@ -58,8 +55,9 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
+            <center><img src="img/logo_v1.png"></center>
             <h1>MyEdu-X</h1>
-            <h3> data graduan ipt 2015</h3>
+            <h4><i>Inisiatif analisis data pendidikan di hujung jari</i></h4>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Maklumat lebih lanjut</a>
         </div>
@@ -70,8 +68,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>MyEdu-X adalah projek saksama empat sekawan</h2>
-                    <p class="lead">Laman ini disediakan untuk menganalisis data terbuka sektor awam dari kluster Pendidikan<a target="_blank" href="http://data.gov.my/">Data Terbuka 2016</a>.</p>
+                    <h2>MyEdu-X</h2>
+                    <p class="lead">Laman ini menyediakan statistik dan analisis data terbuka sektor awam dari kluster pendidikan bersama data sokongan dari pelbagai sumber. MyEdu-X merungkai hubungkait antara kadar pekerjaan graduan di Malaysia dengan faktor-faktor luar.    
+                    <div>    
+                        <font size="3">Sumber data:
+                        <div>    
+                            <center><a target="_blank" href="http://www.data.gov.my/data/ms_MY/dataset/peratusan-status-pekerjaan-graduan-universiti-awam-tahun-2015">Peratusan Status Pekerjaan Graduan Universiti Awam 2015</a></center>
+                        </div>
+                        <div>    
+                            <center><a target="_blank" href="http://www.bnm.gov.my/">Bank Negara Malaysia: Perkembangan Ekonomi Malaysia 2009-2015</a></center>
+                        </div>
+                        <div>    
+                            <center><a target="_blank" href="http://www.pmo.gov.my/">Pejabat Perdana Menteri: Teks Ucapan Bajet 2009-2015</a></center>
+                        </div>
+                        <div>    
+                            <center><a target="_blank" href="http://www.topuniversities.com/university-rankings">Ranking QS 5 Universiti Awam Malaysia 2009-2015</a></center>
+                        </div>      
+                        </font></p>
+                    </div>
                 </div>
             </div>
             <!-- /.row -->
@@ -85,25 +99,34 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
+                    <h2>Perkhidmatan Kami</h2>
                     <hr class="small">
                     <div class="row">
-                    	<div class="col-md-3 col-sm-6">
-                    	</div>
-                        <div class="col-md-3 col-sm-6">
+                    	<!-- <div class="col-md-3 col-sm-6">
+                    	</div> -->
+                        <div class="col-md-4 col-sm-4">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                                <img src="img/stat.png" height="110" width="110">
                             </span>
                                 <h4>
                                     <strong>Statistik</strong>
                                 </h4>
-                                <p>Statistik data pasaran graduan Ipta.</p>
+                                <p>Statistik data berkaitan pendidikan negara</p><br>
                                 <a href="services.html" class="btn btn-light">Lanjut</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                          <div class="col-md-4 col-sm-4">
+                            <div class="service-item">
+                                <img src="img/bot.png" height="110" width="110">
+                            </span>
+                                <h4>
+                                    <strong>Bot Telegram</strong>
+                                </h4>
+                                <p>Bot aplikasi Telegram bagi perkhidmatan mudah alih</p>
+                                <a href="#portfolio" class="btn btn-light">Lanjut</a>
+                            </div>
+                        </div>
+                         <div class="col-md-4 col-sm-4">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -112,7 +135,7 @@
                                 <h4>
                                     <strong>Ramalan</strong>
                                 </h4>
-                                <p>Ramalan pasaran graduan Ipta.</p>
+                                <p>Ramalan kadar pekerjaan graduan dan ranking universiti</p>
                                 <a href="ramalan.html" class="btn btn-light">Lanjut</a>
                             </div>
                         </div>
@@ -127,51 +150,68 @@
     </section>
 
     <!-- Callout -->
-    <aside class="callout">
+    <!-- <aside class="callout">
         <div class="text-vertical-center">
             <h1>Hackathon Data Terbuka Awam 2016</h1>
         </div>
     </aside>
-
+ -->
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Servis tersedia</h2>
+                    <h2>Bot Telegram</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                <img src="img/telebnw.png" height="50" width="50">
+                                <p>Muat turun aplikasi permesejan Telegram di AppStore atau Google Play</p>
+                                <img src="img/appstore.png" height="50" width="50">
+                                <img src="img/googlePlay.png" height="50" width="50">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <img src="img/bot_icon.png" height="50" width="50">
+                                <p>Klik pada pautan link untuk mula berinteraksi dengan bot Telegram <a href="https://telegram.me/myedux_bot">MyEdu-X</a></p>
+                                <p>Lalukan tetikus anda ke atas gambar di sebelah untuk melihat contoh interaksi dengan bot MyEdu-X</p>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-1">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
+                                <div class="classWithPad">
+                                    <img src="img/tel1.jpg" class="img-rounded thumbnail" height="100" width="70"> 
+                                </div>    
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-1">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
+                                <div class="classWithPad">
+                                    <img src="img/tel2.jpg" class="img-rounded thumbnail" height="100" width="70">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-1">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
+                                <div class="classWithPad">
+                                    <img src="img/tel3.jpg" class="img-rounded thumbnail" height="100" width="70">
+                                </div>
                             </div>
+                        </div>
+                        <div class="col-md-1">
+                            <div class="portfolio-item">
+                                <div class="classWithPad">
+                                    <img src="img/tel4.jpg" class="img-rounded thumbnail" height="100" width="70">
+                                </div>
+                            </div>
+                        </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                   <!--  <a href="#" class="btn btn-dark">View More Items</a> -->
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -179,14 +219,67 @@
         </div>
         <!-- /.container -->
     </section>
-    <section id ="lokasi" class = "lokasi">
-    	<div class="container">
-    		<div class = "row">
-    			<div class="col-lg-10 col-lg-offset-1">
-    				<div class='tableauPlaceholder' id='viz1477439377931' style='position: relative'><noscript><a href='#'><img alt='Taburan IPTA di Malaysia ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book3_4868&#47;geolocation&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='Book3_4868&#47;geolocation' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book3_4868&#47;geolocation&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1477439377931');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-    			</div>
-    		</div>
-    	</div>
+    <section id="mengenaikami" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Mengenai Kami</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <!-- <div class="col-md-3 col-sm-6">
+                        </div> -->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="service-item">
+                                <img src="img/paiz.png" height="110" width="110">
+                            </span>
+                                <h4>
+                                    <strong>Faiz</strong>
+                                </h4>
+                                <p>Lulusan Big Data Analytics (BDA). Berumur 24 tahun dan sedang meneroka peluang-peluang data besar dengan lebih mendalam</p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="service-item">
+                                <img src="img/frodo.png" height="110" width="110">
+                            </span>
+                                <h4>
+                                    <strong>Hazim</strong>
+                                </h4>
+                                <p>Graduan rangkaian komputer dan sedang mendalami bidang sistem operasi dan seni bina Linux. Berumur 23 tahun.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="service-item">
+                                <img src="img/faizal.png" height="110" width="110">
+                            </span>
+                                <h4>
+                                    <strong>Faizal</strong>
+                                </h4>
+                                <p>Berumur 29 tahun dan bakal bergelar graduan PhD dalam bidang keselamatan rangkaian.</p>
+                                
+                            </div>
+                        </div>                         
+                        <div class="col-md-3 col-sm-3">
+                            <div class="service-item">
+                                <img src="img/pidot.png" height="110" width="110">
+                            </span>
+                                <h4>
+                                    <strong>Firdaus</strong>
+                                </h4>
+                                <p>Sedang mengejar Sarjana Keselamatan Rangkaian di Universiti Malaya. Berumur 25 tahun.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
     </section>
     <!-- Call to Action -->
 
@@ -195,29 +288,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>myedu-x v1</strong>
+                    <h4><strong>MyEdu-X v1</strong>
                     </h4>
-                    <p>Oozma Kappa
-                        <br>Berhenti merintih apa yang anda tidak dapat, mula bersyukur dengan apa yang ada</p>
+                    <p><i>"Information is the oil of the 21st century, and analytics is the combustion engine"</i> - Peter Sondergaard, Senior Vice President, Gartner</p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">help@myedux.com</a>
+                        <!-- <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li> -->
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">faizzaki@um.edu.my</a>
                         </li>
                     </ul>
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <img src="img/mampu.png" width="100" height="40">
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            <img src="img/mdec.png" width="100" height="40">
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                            <img src="img/um.png" width="100" height="30">
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; myedu-x 2016</p>
+                    <p class="text-muted">Copyright &copy; MyEdu-X 2016</p>
                 </div>
             </div>
         </div>
